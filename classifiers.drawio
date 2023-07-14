@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T04:22:14.265Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mpvsp2YguNRQsbMnt8Md" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T04:26:30.461Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="020_xHEVP5XGEPV-6g31" version="21.6.1" type="github">
   <diagram name="Страница 1" id="JitTd_IMZwC5bZD_vbZD">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nBOdrs7TVnGfuyen_7ym-8" value="Storage - filesystem" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="760" height="350" as="geometry">
+          <mxGeometry x="40" y="30" width="760" height="370" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-16" value="classifiers" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};strokeWidth=4;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-8">
-          <mxGeometry x="10" y="30" width="580" height="310" as="geometry">
+          <mxGeometry x="10" y="30" width="580" height="330" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-19" value="global" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};strokeWidth=3;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
-          <mxGeometry x="10" y="30" width="280" height="120" as="geometry">
+          <mxGeometry x="10" y="30" width="280" height="150" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -42,8 +42,20 @@
         <mxCell id="nBOdrs7TVnGfuyen_7ym-31" value="classifier_name&lt;br&gt;.classifier.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-38">
           <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-54" value="" style="group" vertex="1" connectable="0" parent="nBOdrs7TVnGfuyen_7ym-19">
+          <mxGeometry x="150" y="90" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-57" value="" style="group" vertex="1" connectable="0" parent="nBOdrs7TVnGfuyen_7ym-54">
+          <mxGeometry y="-4" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-57">
+          <mxGeometry width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-56" value="classifier_name&lt;br&gt;.classifier.dynamic&lt;br&gt;.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-57">
+          <mxGeometry x="10" y="11" width="110" height="44" as="geometry" />
+        </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-24" value="system" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};strokeWidth=3;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
-          <mxGeometry x="300" y="30" width="270" height="120" as="geometry">
+          <mxGeometry x="300" y="30" width="270" height="150" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -74,7 +86,7 @@
           <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-21" value="local" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};strokeWidth=3;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
-          <mxGeometry x="10" y="170" width="160" height="130" as="geometry">
+          <mxGeometry x="10" y="190" width="160" height="130" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -93,7 +105,7 @@
           <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-22" value="schemas" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};strokeWidth=4;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-8">
-          <mxGeometry x="600" y="30" width="150" height="310" as="geometry">
+          <mxGeometry x="600" y="30" width="150" height="330" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -107,6 +119,15 @@
           <mxGeometry x="60" y="420" width="650" height="340" as="geometry">
             <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="175" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-51">
+          <mxGeometry width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-53" value="classifier_name&lt;br&gt;.classifier.dynamic&lt;br&gt;.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-51">
+          <mxGeometry x="10" y="11" width="110" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
