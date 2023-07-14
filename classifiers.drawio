@@ -1,9 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T03:53:52.960Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="tL7MR8UG6Wb1KV_nZkhE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T04:19:27.140Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="f_rpilBWmgFZIKT0dFMP" version="21.6.1" type="github">
   <diagram name="Страница 1" id="JitTd_IMZwC5bZD_vbZD">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-8" value="Storage - filesystem" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="350" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-16" value="classifiers" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-8">
+          <mxGeometry x="10" y="30" width="580" height="310" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-19" value="global" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
+          <mxGeometry x="10" y="30" width="280" height="120" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-20" value="schemas" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-19">
+          <mxGeometry x="10" y="30" width="130" height="80" as="geometry">
+            <mxRectangle x="10" y="30" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-38" value="" style="group" vertex="1" connectable="0" parent="nBOdrs7TVnGfuyen_7ym-19">
+          <mxGeometry x="150" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-38">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-31" value="classifier_name&lt;br&gt;.classifier.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-38">
+          <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-24" value="system" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
+          <mxGeometry x="300" y="30" width="270" height="120" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-29" value="schemas" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-24">
+          <mxGeometry x="5" y="30" width="130" height="80" as="geometry">
+            <mxRectangle x="10" y="30" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-30" value="classifier_name&lt;br&gt;.schema.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-29">
+          <mxGeometry x="10" y="30" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-39" value="" style="group" vertex="1" connectable="0" parent="nBOdrs7TVnGfuyen_7ym-24">
+          <mxGeometry x="140" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-39">
+          <mxGeometry width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-41" value="classifier_name&lt;br&gt;.classifier.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-39">
+          <mxGeometry x="10" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-21" value="local" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
+          <mxGeometry x="10" y="170" width="160" height="130" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-33" value="OVU GUID" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-21">
+          <mxGeometry x="10" y="30" width="130" height="90" as="geometry">
+            <mxRectangle x="10" y="30" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-34" value="classifier_name&lt;br&gt;.classifier.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-33">
+          <mxGeometry x="10" y="30" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-25" value="classifier_name&lt;br&gt;.schema.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-16">
+          <mxGeometry x="310" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-22" value="schemas" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-8">
+          <mxGeometry x="600" y="30" width="150" height="310" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-22">
+          <mxGeometry x="10" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-36" value="object_name&lt;br&gt;.schema.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-22">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-23" value="Storage - filesystem" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="650" height="340" as="geometry">
+            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
