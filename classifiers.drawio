@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T04:28:27.032Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="R2COVvgls8FY0Dh9MANx" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T05:05:59.268Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mp6B_xPWYrmdeAePiMjQ" version="21.6.1" type="github">
   <diagram name="Страница 1" id="JitTd_IMZwC5bZD_vbZD">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,11 +115,6 @@
         <mxCell id="nBOdrs7TVnGfuyen_7ym-36" value="object_name&lt;br&gt;.schema.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-22">
           <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBOdrs7TVnGfuyen_7ym-23" value="Storage - filesystem" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
-          <mxGeometry x="70" y="550" width="650" height="340" as="geometry">
-            <mxRectangle x="40" y="40" width="160" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-51" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="490" y="175" width="120" height="55" as="geometry" />
         </mxCell>
@@ -136,7 +131,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nBOdrs7TVnGfuyen_7ym-59" value="&lt;h1&gt;Storage system&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="810" height="40" as="geometry" />
+          <mxGeometry x="10" y="32" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-60" value="&lt;h1&gt;Class diagram&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="9" y="500" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-61" value="libclassifierengine" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="760" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-67" value="ClassifierImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-61">
+          <mxGeometry x="15" y="40" width="160" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-68" value="+ name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-73" value="+ group: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-72" value="+ description: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-74" value="+ type: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-75" value="+ version: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-71" value="+ list: json" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="156" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="182" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-70" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-67">
+          <mxGeometry y="190" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-62" value="ClassifierInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-63" value="+ path: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-62">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-64" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-62">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nBOdrs7TVnGfuyen_7ym-65" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nBOdrs7TVnGfuyen_7ym-62">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
